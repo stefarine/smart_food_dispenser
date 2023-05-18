@@ -8,7 +8,7 @@
 
 The aim of this project is to deploy a smart dog food dispenser. The device will allow you to feed your dog while collecting data. You will be able to know how often the animal eats and also to have an eye on its food consumption. Indeed, the device allows you to track how often the container is empty.
 
-The device is able to detect when a dog is in front of it and can serve a portion of food.for this purpose the camera uses a motion detector which, when a movement is detected, triggers the camera. The captured photo is then processed by Google Vision AI, to determine if it is a dog or not. If it is a dog, the device will activate the servo motor to deliver a portion of food. The device will store the date and time of engine activation to keep track of the animal's food consumption. The device also allows, thanks to a laser emitter and its receiver, to determine when the food tank is empty. Thus, the user will be notified on his phone of the need to refill it.
+The device is able to detect when a dog is in front of it and can serve a portion of food. For this purpose the camera uses a motion detector which, when a movement is detected, triggers the camera. The captured photo is then processed by Google Vision AI, to determine if it is a dog or not. If it is a dog, the device will activate the servo motor to deliver a portion of food. The device will store the date and time of engine activation to keep track of the animal's food consumption. The device also allows, thanks to a laser emitter and its receiver, to determine when the food tank is empty. Thus, the user will be notified on his phone of the need to refill it.
 
 
 ## Requirements
