@@ -13,3 +13,5 @@ The aim of this project is to deploy an smart dog food dispenser. The device wil
 
 ## Deployment
 
+Follow [this link](deployment.md)
+
