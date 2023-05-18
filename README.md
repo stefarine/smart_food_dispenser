@@ -20,7 +20,7 @@ To deploy this project you will need the following material :
 - [Laser.rx unit](https://shop.m5stack.com/products/laser-rx-unit)
 - [Servo kit 360°](https://shop.m5stack.com/products/servo-kit-360)
 - [Motion sensor](https://shop.m5stack.com/products/pir-module)
-- A computer and its webcam
+- A computer and its webcam*
 - A 3D printer or some DIY skills
 
 ## Deployment
