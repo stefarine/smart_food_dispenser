@@ -29,3 +29,5 @@ To deploy this project you will need the following material :
 
 Follow [this link](deployment.md)
 
+
+* Note webcam
