@@ -22,4 +22,4 @@ Your Twilio account is now configured. Now you have to configure a Google Cloud 
 
 <img height=200 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/dd4f3ee6-42f4-44a9-9b82-dce23307b635">
 <br>
-<img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/a11176f5-9ce7-44ce-bae5-d8dcf0d7c31d">
+<img height=400 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/a11176f5-9ce7-44ce-bae5-d8dcf0d7c31d">
