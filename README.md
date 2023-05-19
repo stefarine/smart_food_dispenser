@@ -12,6 +12,9 @@ The device is able to detect when a dog is in front of it and can serve a portio
 
 The device also allows, thanks to a laser emitter and its receiver, to determine when the food tank is empty. Thus, the user will be notified on his phone of the need to refill it. Each time the tank is emptied, the date and time is stored to keep track of the general food consumption of the animal. Also, the user will be able to consult the information about his pet's food consumption through the web app.
 
+## Demonstration video
+
+video ici
 
 ## Requirements
 
@@ -27,7 +30,7 @@ To deploy this project you will need the following material :
 
 ## Deployment
 
-Follow [this link](Deployment/step1.md)
+You will find in the folder [deployment](Deployment) the different steps to realize this project. To start, go to [step 1](Deployment/step1.md).
 
 
 _*For this project we used a windows computer and its webcam but it is quite possible to use another type of camera that integrates better with the device._
