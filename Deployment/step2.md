@@ -55,3 +55,8 @@ google-cloud-storage
 flask
 
 ```
+Change the name of the entry point to write_csv and then deploy the function.
+
+<img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/6d3ba8c0-a7b3-4572-a7ea-48a3c27de23a">
+</br></br>
+
