@@ -52,6 +52,5 @@ Then add the following lines to *requirements.txt*
 
 ```python I'm requirements.txt
 google-cloud-storage
-flask
 
 ```
