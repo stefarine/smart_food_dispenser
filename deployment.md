@@ -16,3 +16,6 @@ You will then have to scan the qr code displayed with the phone that has the num
 
 <img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/acea5cd9-4e1e-4025-a26e-998e24b01416">
 <img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/a028a2a8-1bea-4a2b-b827-ba821736592a">
+</br></br>
+
+<img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/dd4f3ee6-42f4-44a9-9b82-dce23307b635">
