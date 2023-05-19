@@ -62,6 +62,8 @@ All you have to do now is press the deploy button and wait a few minutes for the
 <img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/d8a95ad9-b1b0-458f-91b9-1135c818216e">
 </br></br>
 
+Don't forget to change the permissions. To do this, go to the permissions tab, press the grant access button and add "allUsers" as a Cloud Functions requester, as in the picture below.
+
 <img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/a78c7429-bead-4712-ac72-54099d9a42e6">
 </br></br>
 
