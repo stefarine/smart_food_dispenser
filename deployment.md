@@ -21,9 +21,9 @@ You will then have to scan the qr code displayed with the phone that has the num
 Your Twilio account is now configured. Now you have to configure a Google Cloud Function. To do this, go to the Google Cloud Function page after first creating a Google Cloud account and creating a project. Then press the **create a function** button.
 
 <img height=200 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/dd4f3ee6-42f4-44a9-9b82-dce23307b635">
-<br>
+</br></br>
 
-Configure the function as you wish, change its name. Then delete all the code in *index.js* and copy/paste the code below instead. A copy of the code is available [here](Code/Cloud/laser-notif.js)
+Configure the function as you wish, change its name. Then delete all the code in *index.js* and copy/paste the code below instead. A copy of the code is available [here](Code/Cloud/laser-notif.js).
 
 ````
 const accountSid = [YOUR ACCOUNT SID] ;
