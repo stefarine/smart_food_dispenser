@@ -25,15 +25,8 @@ Your Twilio account is now configured. Now you have to configure a Google Cloud 
 
 Configure the function as you wish, change its name. Then delete all the code in *index.js* and copy/paste the code below instead. A copy of the code is available [here](Code/Cloud/laser-notif.js). Don't forget to replace the four variables between [] with your variables.
 
-````
 
-
-
-```
-
-````
-
-```javascript I'm A tab
+```javascript I'm index.js
 const accountSid = [YOUR ACCOUNT SID] ;
 const authToken = [YOUR AUTH TOKEN] ;
 const client = require('twilio')(accountSid, authToken);
@@ -53,7 +46,7 @@ exports.helloWorld = (req, res) => {
         .done();
 };
 ```
-```javascript I'm tab B
+```javascript I'm package.json
 {
   "name": "sample-http",
   "version": "0.0.1",
