@@ -1,4 +1,4 @@
-# Laser truc blabla
+# Step 1 : WhatsApp Notification
 
 ### In this step we will configure a twilio account and a Google cloud function so that the m5Stack is able to send a notification on WhatsApp when the food tank is empty.
 
