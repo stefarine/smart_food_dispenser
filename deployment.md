@@ -22,4 +22,24 @@ Your Twilio account is now configured. Now you have to configure a Google Cloud 
 
 <img height=200 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/dd4f3ee6-42f4-44a9-9b82-dce23307b635">
 <br>
-<img height=400 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/a11176f5-9ce7-44ce-bae5-d8dcf0d7c31d">
+
+````
+const accountSid = 'AC92bf98f4947a5e8a1a7c53b5f76abdf0';
+const authToken = '8cc1ad5788caac1e5b55f63f39c105f3';
+const client = require('twilio')(accountSid, authToken);
+
+exports.helloWorld = (req, res) => {
+
+  let message = req.query.message || req.body.message || 'yo99o!';
+  res.status(200).send(message);
+
+    client.messages
+        .create({
+            body: 'Il faut remettre des croquettes',
+            from: 'whatsapp:+14155238886',
+            to: 'whatsapp:+41765179086'
+        })
+        .then(message => console.log(message.sid))
+        .done();
+};
+
