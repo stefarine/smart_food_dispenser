@@ -57,4 +57,4 @@ Also replace the code in *package.json* by the code below to have the necessary 
   }
 }
 ```
-
+All you have to do now is press the deploy button and wait a few minutes for the function to be deployed.
