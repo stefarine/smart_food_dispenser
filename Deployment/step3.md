@@ -1,5 +1,6 @@
-![Capture d’écran 2023-05-19 à 18 41 28](https://github.com/stefarine/smart_food_dispenser/assets/57952280/c15d3141-0ae9-4a2c-8162-5765028076e7)
 
+<img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/c15d3141-0ae9-4a2c-8162-5765028076e7">
+</br></br>
 
 ```python I'm main.py
 from m5stack import *
