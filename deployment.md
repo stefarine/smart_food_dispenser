@@ -11,3 +11,5 @@ Then in the menu on the left side of the screen ,you have to go to **Develop > M
 
 <img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/51dad0a0-61ab-425e-9359-dae9883200b7">
 
+<img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/acea5cd9-4e1e-4025-a26e-998e24b01416">
+
