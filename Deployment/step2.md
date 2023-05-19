@@ -12,7 +12,7 @@ Then go to google cloud function and create a new function. Configure it and giv
 <img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/e23a0a70-1206-449e-9930-b75863aa637d">
 </br></br>
 
-Replace the code in *main.py* with the code below. Be sure to change the name of the bucket and put the name of the bucket previously created. The code is also available [here](Code/Cloud/laser-csv.py)
+Replace the code in *main.py* with the code below. Be sure to change the name of the bucket and put the name of the bucket previously created. The code is also available [here](./Code/Cloud/laser-csv.py).
 
 ```python I'm main.py
 import os
