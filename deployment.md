@@ -26,24 +26,7 @@ Your Twilio account is now configured. Now you have to configure a Google Cloud 
 Configure the function as you wish, change its name. Then delete all the code in *index.js* and copy/paste the code below instead. A copy of the code is available [here](Code/Cloud/laser-notif.js). Don't forget to replace the four variables between [] with your variables.
 
 ````
-const accountSid = [YOUR ACCOUNT SID] ;
-const authToken = [YOUR AUTH TOKEN] ;
-const client = require('twilio')(accountSid, authToken);
 
-exports.helloWorld = (req, res) => {
-
-  let message = req.query.message || req.body.message || 'yo99o!';
-  res.status(200).send(message);
-
-    client.messages
-        .create({
-            body: 'Il faut remettre des croquettes',
-            from: 'whatsapp:[YOUR TWILIO NUMBER]',
-            to: 'whatsapp:[YOUR REAL NUMBER]'
-        })
-        .then(message => console.log(message.sid))
-        .done();
-};
 
 
 ```{
