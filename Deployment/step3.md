@@ -1,3 +1,6 @@
+![Capture d’écran 2023-05-19 à 18 41 28](https://github.com/stefarine/smart_food_dispenser/assets/57952280/c15d3141-0ae9-4a2c-8162-5765028076e7)
+
+
 ```python I'm main.py
 from m5stack import *
 from m5stack_ui import *
@@ -50,14 +53,14 @@ while True:
     counter = (counter if isinstance(counter, Number) else 0) + 1
     if counter == 1:
       try:
-        req = urequests.request(method='GET', url='https://us-central1-iottestv1-384613.cloudfunctions.net/laser-notif', headers={})
+        req = urequests.request(method='GET', url='[YOUR URL]', headers={})
         label2.set_text('okk')
         gc.collect()
         req.close()
       except:
         label2.set_text('Notttt')
       try:
-        req = urequests.request(method='POST', url='https://europe-west6-iottestv1-384613.cloudfunctions.net/laser-csv',json={'laser':'laser'}, headers={})
+        req = urequests.request(method='POST', url='[YOUR URL]',json={'laser':'laser'}, headers={})
         label3.set_text('okk')
         gc.collect()
         req.close()
