@@ -47,3 +47,11 @@ def write_csv(request):
 
     return f"CSV file '{csv_file_name}' created in bucket '{bucket_name}'."
 ```
+Then add the following lines to *requirements.txt*
+
+
+```python I'm requirements.txt
+google-cloud-storage
+flask
+
+```
