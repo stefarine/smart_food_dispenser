@@ -15,5 +15,4 @@ Then in the menu on the left side of the screen, you have to go to **Develop > M
 You will then have to scan the qr code displayed with the phone that has the number you used to set up your Twilio account. This will open a Whatsapp conversation for you. Just confirm the message and add the number to your contacts.
 
 <img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/acea5cd9-4e1e-4025-a26e-998e24b01416">
-</br></br>
 <img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/a028a2a8-1bea-4a2b-b827-ba821736592a">
