@@ -65,7 +65,7 @@ All you have to do now is press the deploy button and wait a few minutes for the
 <img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/a78c7429-bead-4712-ac72-54099d9a42e6">
 </br></br>
 
-<img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/b9763f1c-bb34-4453-bacd-2f0dd2f6440d">
+<img height=450 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/b9763f1c-bb34-4453-bacd-2f0dd2f6440d">
 </br></br>
 
 
