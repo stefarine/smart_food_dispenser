@@ -45,3 +45,12 @@ exports.helloWorld = (req, res) => {
         .done();
 };
 
+````
+{
+  "name": "sample-http",
+  "version": "0.0.1",
+  "dependencies": {
+    "twilio": "^4.10.0"
+  }
+}
+````
