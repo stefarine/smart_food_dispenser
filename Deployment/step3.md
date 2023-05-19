@@ -1,3 +1,8 @@
+Now that everything has been configured in the 2 previous steps, you just need to inject the code into the m5stack.
+
+Go to [flow.m5stack](https://flow.m5stack.com/). Now you have two choices. Either you import this file and modify both URLs as shown in the image below. The first URL is the one we copied at the end of step 1. The second is to be retrieved in the same way with the Google Cloud Function created in step 2.</br></br>
+
+The second option is simply to copy and paste the code below on [flow.m5stack](https://flow.m5stack.com/). Don't forget to change the URLs.
 
 <img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/c15d3141-0ae9-4a2c-8162-5765028076e7">
 </br></br>
