@@ -57,7 +57,7 @@ Also replace the code in *package.json* by the code below to have the necessary 
   }
 }
 ```
-All you have to do now is press the deploy button and wait a few minutes for the function to be deployed. Once the function is correctly deployed, go to the page of it and in the section trigger copy the triggering url.
+All you have to do now is press the deploy button and wait a few minutes for the function to be deployed. Once the function is correctly deployed, go to its page and in the section trigger copy the triggering url.
 
 <img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/d8a95ad9-b1b0-458f-91b9-1135c818216e">
 
