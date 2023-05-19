@@ -46,6 +46,8 @@ exports.helloWorld = (req, res) => {
         .done();
 };
 ```
+
+Also replace the code in *package.json* by the code below to have the necessary dependencies.
 ```javascript I'm package.json
 {
   "name": "sample-http",
