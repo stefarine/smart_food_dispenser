@@ -59,5 +59,6 @@ Don't forget to change the name of the entry point to write_csv and then deploy 
 
 <img height=450 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/6d3ba8c0-a7b3-4572-a7ea-48a3c27de23a">
 </br></br>
+Don't forget to give access to "allUsers" as a Cloud Functions requester as in step 1.
 
 At this point, we have set up Twilio and Google cloud function in step 1 to notify us when the kibble tank is empty. Then, in step 2, we set google cloud storage and google cloud function to write in a csv when the tank is empty. In [step 3](step3.md) we will run the code on the first m5stack to handle all this.
