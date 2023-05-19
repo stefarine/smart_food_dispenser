@@ -60,4 +60,7 @@ Also replace the code in *package.json* by the code below to have the necessary 
 All you have to do now is press the deploy button and wait a few minutes for the function to be deployed. Once the function is correctly deployed, go to its page and in the section trigger copy the triggering URL. Keep the URL somewhere for now.
 
 <img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/d8a95ad9-b1b0-458f-91b9-1135c818216e">
+</br></br>
+
+At this point, everything is configured correctly for sending notifications via WhatsApp. All we need to do is ask M5Stack to notify us at the right time. We'll do that a little later. For now we will add an additional feature. When the tank is empty, in addition to being notified, we want the food dispenser to store the information on the cloud. To do this, go to [step 2](Deployment/step2.md) to configure the different elements of the cloud.
 
