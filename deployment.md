@@ -29,20 +29,37 @@ Configure the function as you wish, change its name. Then delete all the code in
 
 
 
-```{
+```
+
+````
+
+```javascript I'm A tab
+const accountSid = [YOUR ACCOUNT SID] ;
+const authToken = [YOUR AUTH TOKEN] ;
+const client = require('twilio')(accountSid, authToken);
+
+exports.helloWorld = (req, res) => {
+
+  let message = req.query.message || req.body.message || 'yo99o!';
+  res.status(200).send(message);
+
+    client.messages
+        .create({
+            body: 'Il faut remettre des croquettes',
+            from: 'whatsapp:[YOUR TWILIO NUMBER]',
+            to: 'whatsapp:[YOUR REAL NUMBER]'
+        })
+        .then(message => console.log(message.sid))
+        .done();
+};
+```
+```javascript I'm tab B
+{
   "name": "sample-http",
   "version": "0.0.1",
   "dependencies": {
     "twilio": "^4.10.0"
   }
 }
-
-````
-
-```javascript I'm A tab
-console.log('Code Tab A');
-```
-```javascript I'm tab B
-console.log('Code Tab B');
 ```
 
