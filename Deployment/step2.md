@@ -9,5 +9,5 @@ To start, activate Google Cloud Storage on the same project as in step 1 and cre
 
 Then go to google cloud function and create a new function. Configure it and give it a name. Then choose the *Python 3.9* execution environment.
 
-<img height=250 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/e23a0a70-1206-449e-9930-b75863aa637d">
+<img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/e23a0a70-1206-449e-9930-b75863aa637d">
 </br></br>
