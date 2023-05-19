@@ -82,6 +82,4 @@ while True:
 
 ```
 
-Congratulations! Now you have a system that allows you to control when the food tank is empty. We will see later how to install it.
-
-In the next step we will see how to deploy the motion sensor, the camera and the motor.
+Congratulations! Now you have a system that allows you to control when the food tank is empty. We will see later how to install it.In the next step we will see how to deploy the motion sensor, the camera and the motor.
