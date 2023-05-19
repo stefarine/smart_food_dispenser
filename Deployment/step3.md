@@ -9,7 +9,7 @@ Go to [flow.m5stack](https://flow.m5stack.com/). Now you have two choices. Eithe
 
 <img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/c15d3141-0ae9-4a2c-8162-5765028076e7">
 </br></br>
-The second option is simply to copy and paste the code below on [flow.m5stack](https://flow.m5stack.com/). Don't forget to change the URLs.
+The second option is simply to copy and paste the code below on [flow.m5stack](https://flow.m5stack.com/). Don't forget to change the URLs.</br></br>
 
 ```python I'm main.py
 from m5stack import *
