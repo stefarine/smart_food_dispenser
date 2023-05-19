@@ -58,3 +58,6 @@ Also replace the code in *package.json* by the code below to have the necessary 
 }
 ```
 All you have to do now is press the deploy button and wait a few minutes for the function to be deployed.
+
+<img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/d8a95ad9-b1b0-458f-91b9-1135c818216e">
+
