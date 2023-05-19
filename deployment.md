@@ -23,6 +23,8 @@ Your Twilio account is now configured. Now you have to configure a Google Cloud 
 <img height=200 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/dd4f3ee6-42f4-44a9-9b82-dce23307b635">
 <br>
 
+Configure the function as you wish, change its name. Then delete all the code in *index.js* and copy/paste the code below instead.
+
 ````
 const accountSid = [YOUR ACCOUNT SID] ;
 const authToken = [YOUR AUTH TOKEN] ;
