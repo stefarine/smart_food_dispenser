@@ -1,6 +1,6 @@
 # Laser truc blabla
 
-## In this step we will configure a twilio account and a Google cloud function so that the m5Stack is able to send a notification on WhatsApp when the food tank is empty.
+### In this step we will configure a twilio account and a Google cloud function so that the m5Stack is able to send a notification on WhatsApp when the food tank is empty.
 
 Go to [Twilio](https://www.twilio.com/en-us) and create a free account and set up your account. Then, go to the console and request a Twilio Number. Just press the button as shown in the picture below and the number will be assigned to you.
 
