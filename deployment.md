@@ -24,8 +24,8 @@ Your Twilio account is now configured. Now you have to configure a Google Cloud 
 <br>
 
 ````
-const accountSid = 'AC92bf98f4947a5e8a1a7c53b5f76abdf0';
-const authToken = '8cc1ad5788caac1e5b55f63f39c105f3';
+const accountSid = [YOUR ACCOUNT SID] ;
+const authToken = [YOUR AUTH TOKEN] ;
 const client = require('twilio')(accountSid, authToken);
 
 exports.helloWorld = (req, res) => {
@@ -36,8 +36,8 @@ exports.helloWorld = (req, res) => {
     client.messages
         .create({
             body: 'Il faut remettre des croquettes',
-            from: 'whatsapp:+14155238886',
-            to: 'whatsapp:+41765179086'
+            from: 'whatsapp:[YOUR TWILIO NUMBER]',
+            to: 'whatsapp:[YOUR REAL NUMBER]'
         })
         .then(message => console.log(message.sid))
         .done();
