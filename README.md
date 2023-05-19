@@ -17,7 +17,7 @@ The device also allows, thanks to a laser emitter and its receiver, to determine
 
 To deploy this project you will need the following material : 
 
-- [2 M5Stack Core2](https://shop.m5stack.com/products/m5stack-core2-esp32-iot-development-kit)
+- [2x M5Stack Core2](https://shop.m5stack.com/products/m5stack-core2-esp32-iot-development-kit)
 - [Laser.tx unit](https://shop.m5stack.com/products/laser-tx-unit)
 - [Laser.rx unit](https://shop.m5stack.com/products/laser-rx-unit)
 - [Servo kit 360°](https://shop.m5stack.com/products/servo-kit-360)
