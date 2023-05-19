@@ -30,4 +30,4 @@ To deploy this project you will need the following material :
 Follow [this link](deployment.md)
 
 
-* Note webcam
+_*For this project we used a windows computer and its webcam but it is quite possible to use another type of camera that integrates better with the device._
