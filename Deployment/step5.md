@@ -6,7 +6,7 @@ Go to [io.adafruit](https://io.adafruit.com/) and create a new account.
 
 ![step5_image1](https://github.com/stefarine/smart_food_dispenser/assets/114418718/553e38a8-1763-43a3-99ba-51afd2073417)
 
-Once the account is created, click on IO on the top menu, then feeds, and then create feed. 
+Once the account is created, click on IO on the top menu, then feeds, and then new feed. 
 
 ![step5_image2](https://github.com/stefarine/smart_food_dispenser/assets/114418718/56551e33-9ed4-412a-ab6a-c0c7e801b6c8)
 
