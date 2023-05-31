@@ -71,8 +71,11 @@ google-cloud-storage
 flask
 pytz
 ```
+
 Don't forget to change the name of the entry point to write_csv and then deploy the function.
-![step4_img1](https://github.com/stefarine/smart_food_dispenser/assets/114418718/f2f2726e-618d-4a6d-9dbd-60ec67b1c6b6)
+
+<img height=350 src="https://github.com/stefarine/smart_food_dispenser/assets/114418718/f2f2726e-618d-4a6d-9dbd-60ec67b1c6b6">
+
 Don't forget to give access to "allUsers" as a Cloud Functions requester as in step 1.</br></br>
 
 
