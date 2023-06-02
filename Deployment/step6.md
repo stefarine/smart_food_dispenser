@@ -127,28 +127,24 @@ def upload_image():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
 ```
-The code is also available [here]https://github.com/stefarine/smart_food_dispenser/blob/main/Code/Local/webcam.py. 
+The code is also available [here](https://github.com/stefarine/smart_food_dispenser/blob/main/Code/Local/webcam.py). 
 You should do several modifications to the code to work with your own Google Cloud project:
 1. Line 16: Replace `GOOGLE PROJECT ID` with your own project id.
 ```python 
 project_id = 'GOOGLE PROJECT ID'
 ```
----
 2. Line 17: Replace `PATH TO JSON FILE` with the path of the json file you downloaded earlier.
 ```python 
 project_id = 'GOOGLE PROJECT ID'
 ```
----
 3. Line 24: Replace `BUCKET_NAME` with the name of the bucket you created in step 1.
 ```python 
 bucket_name = 'BUCKET_NAME'
 ```
----
 4. Line 46: Replace `PATH TO YOUR IMAGE FOLDER` with the path of the image folder you created earlier.
 ```python 
 folder_path = "PATH TO YOUR IMAGE FOLDER"
 ```
----
 5. Line 79: Replace `ADAFRUIT_USERNAME` and  `ADAFRUIT_KEY` with the respective values you wrote down on step 5.
 ```python 
 client.username_pw_set('ADAFRUIT_USERNAME', 'ADAFRUIT_KEY')
