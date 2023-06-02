@@ -4,7 +4,7 @@
 
 Alternatively, you could use a Bluetooth camera connected to a desktop computer, which can be used as a webcam and conveniently attached to the dispenser. This approach offers the advantage of not requiring the entire computer to be physically present near the dispenser for the script to function.
 
-> Dislaimer: this was done on a Windows computer. but should be possible on a macOS with minor tweaks.
+> Disclaimer: The following instructions are specific to Windows. However, you should be able to achieve the same on a macOS with minor adjustments.
 
 Let's proceed with the steps to enable and configure the Google Vision API:
 
@@ -14,13 +14,13 @@ Let's proceed with the steps to enable and configure the Google Vision API:
 
 ![step6_image1](https://github.com/stefarine/smart_food_dispenser/assets/114418718/7e0e565e-fd06-420e-8193-c899e7e88554)
 
-3. Click on `Create service account` at the top to create a new service account. In `Step 1` provide a name for the service account. For `Step 2`, grant the required roles: `Storage Object Admin` and `Cloud Vision AI Service Agent`.
+3. Click on `Create service account` at the top. In `Step 1` provide a name for the service account. For `Step 2`, grant the required roles: `Storage Object Admin` and `Cloud Vision AI Service Agent`.
 
 ![step6_image2](https://github.com/stefarine/smart_food_dispenser/assets/114418718/b4514f5d-8f84-4fa0-8d70-6687656e26f8)
 
-4. Select your newly created service account, and from the top menu, click on `Keys`. Then, click on `Add key`, choose the `Create key` option, and select the JSON format. This will download the credentials as a JSON file. Make sure to securely save the file on your computer. 
+4. Select your newly created service account, and from the top menu, click on `Keys`. Afterwards, click on `Add key`, choose the `Create key` option, and select the JSON format. This will download the credentials as a JSON file. Securely save the file on your computer. 
 
-![step6_image3](https://github.com/stefarine/smart_food_dispenser/assets/114418718/ac8a13bf-c7dd-4807-bad8-303ca40b6336)
+![step6_image3](https://github.com/stefarine/smart_food_dispenser/assets/114418718/104e9e74-83d4-4111-89ca-304fb2fd9c90)
 
 ---
 Now we will show you how to set up the script. Create a new folder on your computer. In this new folder, create a python file and an empty folder to store the pictures. In the python file, paste the following code: 
@@ -155,12 +155,12 @@ Side note: if you wish for the dispenser to work with other animals, you can cha
 if label.description.lower() == 'dog':
 ```  
 
-To run the script, first install the required packages to your python environment:
+If you wish to detect other animals instead of a dog, you can modify the following line of code (line 66), replacing `dog` with the animal of your choice:
 ```python 
 pip install flask google-cloud-storage google-cloud-vision opencv-python paho-mqtt
 ``` 
 You can now run the script. Your laptop will act as a local server that will recieve requests from the m5stack when movement is detected. 
-Before going to the next step, when the app is run a similar  message will be desplayed in the terminal: 
+Upon running the application, you will see a message similar to this in your terminal:
 ```
 * Serving Flask app 'webcam'
 * Debug mode: off
@@ -169,4 +169,6 @@ WARNING: This is a development server. Do not use it in a production deployment.
  * Running on http://127.0.0.1:8080
  * Running on http://192.120.1.128:8080
  ```
- Take note of the second adress for later use. 
+ Take note of the second IP address (e.g., 192.120.1.128). You will need it for the subsequent steps.
+ 
+With these configurations, your device will now be capable of capturing images, uploading them to Google Cloud Storage, and analyzing them to detect if a dog is present. Once a dog is detected, the script will publish a message to the Adafruit IO MQTT broker.
