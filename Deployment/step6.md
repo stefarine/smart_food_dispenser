@@ -6,18 +6,17 @@ Alternatively, you could use a Bluetooth camera connected to a desktop computer,
 
 > Dislaimer: this was done on a Windows computer. but should be possible on a macOS with minor tweaks.
 
-Go the [Google Vision API page](https://console.cloud.google.com/marketplace/product/google/vision.googleapis.com) and enable it.
+Let's proceed with the steps to enable and configure the Google Vision API:
 
-Next, select the three bar menu on the top left and click on `IAM & Admin` > `Service accounts`. 
+1. Visit the [Google Vision API page](https://console.cloud.google.com/marketplace/product/google/vision.googleapis.com) and enable it for your project.
+
+2. Access the menu on the top left, represented by three horizontal bars, and navigate to "IAM & Admin" > "Service accounts." 
 IMAGE
 
-On the top, click on `Create service account` to create one. On step 1 give it a name, on step 2 greant those required roles: `Storage Object Admin` and `Cloud Vision AI Service Agent`.
+3. Click on "Create service account" at the top to create a new service account. In "Step 1," provide a name for the service account. For "Step 2," grant the required roles: "Storage Object Admin" and "Cloud Vision AI Service Agent."
 IMAGE
 
-Next, click on your newly create service account, and select `keys` from the top menu. Clik on `Add key` and `Create key`, and select the JSON option. This will download your crendentials as as JSON file. Save it safely on your computer.
-IMAGE
+4. Select your newly created service account, and from the top menu, click on "Keys." Then, click on "Add key," choose the "Create key" option, and select the JSON format. This will download the credentials as a JSON file. Make sure to securely save the file on your computer. 
+IAMGE
 
 Now we will show you how to set up the script. Create a new folder on your computer. In this new folder, create a python file and an empty folder to store the pictures. In the python file, paste the following code: 
-
-
-
