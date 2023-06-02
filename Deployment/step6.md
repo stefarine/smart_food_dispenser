@@ -14,7 +14,7 @@ Let's proceed with the steps to enable and configure the Google Vision API:
 
 ![step6_image1](https://github.com/stefarine/smart_food_dispenser/assets/114418718/7e0e565e-fd06-420e-8193-c899e7e88554)
 
-3. Click on "Create service account" at the top to create a new service account. In "Step 1," provide a name for the service account. For "Step 2," grant the required roles: `Storage Object Admin` and `Cloud Vision AI Service Agent`.
+3. Click on `Create service account` at the top to create a new service account. In `Step 1` provide a name for the service account. For `Step 2`, grant the required roles: `Storage Object Admin` and `Cloud Vision AI Service Agent`.
 
 ![step6_image2](https://github.com/stefarine/smart_food_dispenser/assets/114418718/b4514f5d-8f84-4fa0-8d70-6687656e26f8)
 
