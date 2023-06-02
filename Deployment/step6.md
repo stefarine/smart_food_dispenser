@@ -18,7 +18,7 @@ IMAGE
 
 4. Select your newly created service account, and from the top menu, click on `Keys`. Then, click on `Add key`, choose the `Create key` option, and select the JSON format. This will download the credentials as a JSON file. Make sure to securely save the file on your computer. 
 IAMGE
-
+---
 Now we will show you how to set up the script. Create a new folder on your computer. In this new folder, create a python file and an empty folder to store the pictures. In the python file, paste the following code: 
 ```python
 from flask import Flask, request
@@ -129,19 +129,28 @@ You should do several modifications to the code to work with your own Google Clo
 ```python 
 project_id = 'GOOGLE PROJECT ID'
 ```
+---
 2. Line 17: Replace `PATH TO JSON FILE` with the path of the json file you downloaded earlier.
 ```python 
 project_id = 'GOOGLE PROJECT ID'
 ```
+---
 3. Line 24: Replace `BUCKET_NAME` with the name of the bucket you created in step 1.
 ```python 
 bucket_name = 'BUCKET_NAME'
-```   
+```
+---
 4. Line 46: Replace `PATH TO YOUR IMAGE FOLDER` with the path of the image folder you created earlier.
 ```python 
 folder_path = "PATH TO YOUR IMAGE FOLDER"
 ```
-4. Line 79: Replace `ADAFRUIT_USERNAME` and  `ADAFRUIT_KEY` with the respective values you wrote down on step 5.
+---
+5. Line 79: Replace `ADAFRUIT_USERNAME` and  `ADAFRUIT_KEY` with the respective values you wrote down on step 5.
 ```python 
 client.username_pw_set('ADAFRUIT_USERNAME', 'ADAFRUIT_KEY')
+```  
+---
+Side note: if you wish for the dispenser to work with other animals, you can change line 66 by replacing `dog` by any animal. 
+```python 
+if label.description.lower() == 'dog':
 ```  
