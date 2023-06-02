@@ -37,7 +37,6 @@ You will find in the folder [deployment](Deployment) the different steps to real
 │
 ├── Code
 │   ├── Cloud
-│   │   ├── exemple
 │   │   ├── feeding-csv.py
 │   │   ├── laser-csv.py
 │   │   └── laser-notif.js
