@@ -1,4 +1,4 @@
-# Step 6: Imamge Capture and Analysis
+# Step 6: Image Capture and Analysis
 
 ### In this part we will show you how to set up your portable computer to take pictures from the webcam, send them to a Google Cloud Storage, and analyze them to detect if there is a dog. 
 
