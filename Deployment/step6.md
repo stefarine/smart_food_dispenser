@@ -11,13 +11,17 @@ Let's proceed with the steps to enable and configure the Google Vision API:
 1. Visit the [Google Vision API page](https://console.cloud.google.com/marketplace/product/google/vision.googleapis.com) and enable it for your project.
 
 2. Access the menu on the top left, represented by three horizontal bars, and navigate to `IAM & Admin` > `Service accounts.` 
-IMAGE
+
+![step6_image1](https://github.com/stefarine/smart_food_dispenser/assets/114418718/7e0e565e-fd06-420e-8193-c899e7e88554)
 
 3. Click on "Create service account" at the top to create a new service account. In "Step 1," provide a name for the service account. For "Step 2," grant the required roles: `Storage Object Admin` and `Cloud Vision AI Service Agent`.
-IMAGE
+
+![step6_image2](https://github.com/stefarine/smart_food_dispenser/assets/114418718/b4514f5d-8f84-4fa0-8d70-6687656e26f8)
 
 4. Select your newly created service account, and from the top menu, click on `Keys`. Then, click on `Add key`, choose the `Create key` option, and select the JSON format. This will download the credentials as a JSON file. Make sure to securely save the file on your computer. 
-IAMGE
+
+![step6_image3](https://github.com/stefarine/smart_food_dispenser/assets/114418718/ac8a13bf-c7dd-4807-bad8-303ca40b6336)
+
 ---
 Now we will show you how to set up the script. Create a new folder on your computer. In this new folder, create a python file and an empty folder to store the pictures. In the python file, paste the following code: 
 ```python
@@ -163,7 +167,7 @@ You can now run the script. Your laptop will act as a local server that will rec
 Before going to the next step, when the app is run a similar  message will be desplayed in the terminal: 
 ```
 * Serving Flask app 'webcam'
- * Debug mode: off
+* Debug mode: off
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:8080
