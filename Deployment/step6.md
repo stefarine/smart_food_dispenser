@@ -125,5 +125,7 @@ if __name__ == '__main__':
 ```
 The code is also available [here]https://github.com/stefarine/smart_food_dispenser/blob/main/Code/Local/webcam.py. 
 You should do several modifications to the code to work with your own Google Cloud project:
-1. Line 16 ```python project_id = 'GOOGLE PROJECT ID'```: Replace `GOOGLE PROJECT ID` with your own project id.
+1. Line 16 ```python 
+project_id = 'GOOGLE PROJECT ID'
+```: Replace `GOOGLE PROJECT ID` with your own project id.
     
