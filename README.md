@@ -32,5 +32,31 @@ To deploy this project you will need the following material :
 
 You will find in the folder [deployment](Deployment) the different steps to realize this project. To start, go to [step 1](Deployment/step1.md).
 
+## Repository structure
+│
+├── Code
+│   ├── Cloud
+│   │   ├── exemple
+│   │   ├── feeding-csv.py
+│   │   ├── laser-csv.py
+│   │   └── laser-notif.js
+│   ├── Local
+│   │   └── webcam.py
+│   └── m5Stack
+│       ├── laser.m5f
+│       ├── laser.py
+│       └── laser_notifAndCsv.m5f
+│
+├── Deployment
+│   ├── step1.md
+│   ├── step2.md
+│   ├── step3.md
+│   ├── step4.md
+│   ├── step5.md
+│   ├── step6.md
+│   ├── step7.md
+│   └── step8.md
+│
+└── README.md
 
 _*For this project we used a windows computer and its webcam but it is quite possible to use another type of camera that integrates better with the device._
