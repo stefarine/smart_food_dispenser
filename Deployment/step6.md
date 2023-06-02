@@ -154,3 +154,19 @@ Side note: if you wish for the dispenser to work with other animals, you can cha
 ```python 
 if label.description.lower() == 'dog':
 ```  
+
+To run the script, first install the required packages to your python environment:
+```python 
+pip install flask google-cloud-storage google-cloud-vision opencv-python paho-mqtt
+``` 
+You can now run the script. Your laptop will act as a local server that will recieve requests from the m5stack when movement is detected. 
+Before going to the next step, when the app is run a similar  message will be desplayed in the terminal: 
+```
+* Serving Flask app 'webcam'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.120.1.128:8080
+ ```
+ Take note of the second adress for later use. 
