@@ -78,5 +78,4 @@ Don't forget to change the name of the entry point to write_csv and then deploy 
 
 Don't forget to give access to "allUsers" as a Cloud Functions requester as in step 1.</br></br>
 
-
-
+You now have a function that is triggered by an HTTP request and writes data to a database. This data is then used to track the dispenser's activity. The next [step](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step5.md) is to set up the Adafruit feeds, which will be used to communicate with the M5Stack and the Flask servers.
