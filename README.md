@@ -70,5 +70,5 @@ You will find in the folder [deployment](Deployment) the different steps to real
 │
 └── README.md
 ```
-*You might </br>
-**For this project we used a windows computer and its webcam but it is quite possible to use another type of camera that integrates better with the device._
+_*You might_ </br>
+_**For this project we used a windows computer and its webcam but it is quite possible to use another type of camera that integrates better with the device._
