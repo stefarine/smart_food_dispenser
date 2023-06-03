@@ -43,7 +43,7 @@ def write_csv(request):
     else:
         column_names = ""
 
-    # Append new data with the current time and CO2 value
+    # Append new data with the current time
     new_data = f"{current_time()},{feed_value}\n"
     updated_content = column_names + existing_content + new_data
 
