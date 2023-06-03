@@ -13,9 +13,9 @@ The device is able to detect when a dog is in front of it and can serve a portio
 The device also allows, thanks to a laser emitter and its receiver, to determine when the food tank is empty. Thus, the user will be notified on his phone of the need to refill it. Each time the tank is emptied, the date and time is stored to keep track of the general food consumption of the animal. Also, the user will be able to consult the information about his pet's food consumption through the web app.
 
 <p align="center">
-  <img height=200 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/ad956444-dc7e-4a02-a683-fea8ec37974b">
-  <img height=200 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/fac7f712-c904-4c4d-8820-f658ff45e1e2">
-  <img height=200 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/a52f4d9c-2f0d-4bfa-910a-28dbccf2476a">
+  <img height=300 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/fac7f712-c904-4c4d-8820-f658ff45e1e2">
+  <img height=300 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/ad956444-dc7e-4a02-a683-fea8ec37974b">
+  <img height=300 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/a52f4d9c-2f0d-4bfa-910a-28dbccf2476a">
 </p>
 
 ## Demonstration video
