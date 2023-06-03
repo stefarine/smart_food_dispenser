@@ -163,3 +163,4 @@ req = urequests.request(method='POST', url='http://FLASK_IP/upload_image',json={
  req = urequests.request(method='POST', url='google_function_trigger_url',json={}, headers={})
  ```
  
+Congratulations! You now have a device that can detect movement, send requests to the Flask server, check if a dog was detected from the MQTT feed, run the servo motor, and send a request to the Google Cloud function to write data. The next [step](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step8.md) is to set up the webapp, which will allow you to visualize the data, change dispenser parameters, and compute some predictions.
