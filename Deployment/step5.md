@@ -18,4 +18,4 @@ Next, click on the little key icon and take note of the Username and Active Key 
 ![step5_image3](https://github.com/stefarine/smart_food_dispenser/assets/114418718/fa29e90c-bc27-48bf-89c6-4f70196ada9e)
 
 
-text
+Now that the Adafruit feeds are set up, you have a system that allows you to send and receive data from the M5Stack and the Flask server. These feeds will be used to control the dispenser's parameters and to communicate the detection of a dog. The next [step](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step6.md) is to set up the image capture and analysis system, which will be responsible for detecting the presence of a dog.
