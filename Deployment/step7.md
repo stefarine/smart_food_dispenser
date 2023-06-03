@@ -160,6 +160,6 @@ req = urequests.request(method='POST', url='http://FLASK_IP/upload_image',json={
 ```
 3. On line 109, replace  `cloud_function_trigger` with the Google Cloud Function trigger URL from step 4. 
 ```python
- req = urequests.request(method='POST', url='cloud_function_trigger?feed=1',json={}, headers={})
+ req = urequests.request(method='POST', url='cloud_function_trigger',json={}, headers={})
  ```
  
