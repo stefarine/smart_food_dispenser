@@ -52,8 +52,7 @@ You will find in the folder [deployment](Deployment) the different steps to real
 │   ├── WebApp
 │   │   └── webapp_dispenser.ipynb
 │   └── m5Stack
-│       ├── laser.m5f
-│       ├── laser.py
+│       ├── laser_notifAndCsv.py
 │       └── laser_notifAndCsv.m5f
 │       └── m5_dispenser.m5f
 │       └── m5_dispenser.py
@@ -67,6 +66,7 @@ You will find in the folder [deployment](Deployment) the different steps to real
 │   ├── step6.md
 │   ├── step7.md
 │   └── step8.md
+│   └── step9.md
 │
 └── README.md
 ```
