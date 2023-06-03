@@ -17,7 +17,7 @@ def write_csv(request):
     else:
         return "No data provided"
 
-    csv_file_name = "data.csv"
+    csv_file_name = "data_laser.csv"
 
     bucket = storage_client.get_bucket(bucket_name)
     blob = bucket.blob(csv_file_name)
