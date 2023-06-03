@@ -54,4 +54,5 @@ Everything is set up! When launched, your webapp will look like this:
 
 
 You will be able to visualize the data like the exact feeding times, but also when the dispenser runs out of food. Moreover, it will also provide the latest image captured by the laptop script and offer predictive analytics, such as when your dog is likely to eat next or when the dispenser might need a refill.
-Additionally, there are sliders on the left-hand side of the screen for setting daily limits and the minimum interval between feedings. Any adjustments made to these settings will alter the MQTT feed, which will be promptly acknowledged by the m5stack.
+
+Finally, there are sliders on the left-hand side of the screen for setting daily limits and the minimum interval between feedings. Any adjustments made to these settings will alter the MQTT feed, which will be promptly acknowledged by the m5stack.
