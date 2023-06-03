@@ -7,7 +7,8 @@ Go to [flow.m5stack](https://flow.m5stack.com/). Now you have two choices. Eithe
 But in both cases you will have to do some modifications. 
 
 
-![step7_image1](https://github.com/stefarine/smart_food_dispenser/assets/114418718/2cbd890e-3214-4f7f-8c6a-a2d2e6f059e0)
+![step7_image1](https://github.com/stefarine/smart_food_dispenser/assets/114418718/c060e590-4a7f-4f04-8c60-d7449184db10)
+
 
 
 1. On line 66, replace `ADAFRUIT_USERNAME` and `ADAFRUIT_KEY` with the respective values you wrote down on step 5.
