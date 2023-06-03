@@ -20,5 +20,15 @@ Download and open [this file](https://github.com/stefarine/smart_food_dispenser/
 
 ![step8_img6](https://github.com/stefarine/smart_food_dispenser/assets/114418718/9eafd2eb-c4bb-4fe7-9c36-9ccfe31442f7)
 
+5. You could now run the webapp locally. But to run it on the web, you will have to create a ngrok account. 
+First, go to [ngrok](https://ngrok.com/) and click on sign up for free.
+Once you are logged in, click on `Your Authtoken` on the left menu, and copy it. 
+
+![step8_img7](https://github.com/stefarine/smart_food_dispenser/assets/114418718/59ddd35a-d779-4c9c-837d-79dcb96c2449)
+
+Now go back to the notebook, and copy your authtoken in the fifth cell, replacing `AUTH_TOKEN`
+
+![step8_img8](https://github.com/stefarine/smart_food_dispenser/assets/114418718/c69b659f-8010-468a-b135-3842f5507df4)
+
 
 ![step8_img1](https://github.com/stefarine/smart_food_dispenser/assets/114418718/da6aca1f-a0f9-4e71-8314-7a40bec2093e)
