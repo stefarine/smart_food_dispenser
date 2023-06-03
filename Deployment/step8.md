@@ -34,5 +34,23 @@ Once you are logged in, click on `Your Authtoken` on the left menu, and copy it.
 
 ![step8_img9](https://github.com/stefarine/smart_food_dispenser/assets/114418718/d4689e03-912d-437f-b8c4-b5c2178d587b)
 
+7. Bonus: if you wish to recieve a sms containing the address of the application to easily open it on your mobile devices, you could use twilio similarly to step 1. First, go to [Twilio](https://www.twilio.com/console).    Login with your account, and on this page click on `Get a phone number`. Next, copy the `Account SID` and `Auth Token` and safely store the values. 
+   
+![step8_img10](https://github.com/stefarine/smart_food_dispenser/assets/114418718/15955d59-e825-4ba7-9d56-6100466170ec)
+   
+   Next, on the menu on the left, click on `Phone Numbers` > `Active Numbers` and copy the number on the screen. 
+   
+![step8_img11](https://github.com/stefarine/smart_food_dispenser/assets/114418718/10d2e7f3-1e71-4a84-9d90-e64610084ba3)
+
+   Once your account is set up, you can go back to the notebook and change those lines in the following cell. If you run it, it well send an sms containing the webapp address to your personal phone number. 
+
+![step8_img12](https://github.com/stefarine/smart_food_dispenser/assets/114418718/6617588b-30b8-470d-92ca-af47041c56dc)
+
+---
+
+Everything is set up! When launched, your webapp will look like this:
 ![step8_img1](https://github.com/stefarine/smart_food_dispenser/assets/114418718/da6aca1f-a0f9-4e71-8314-7a40bec2093e)
 
+
+You will be able to visualize the data like the exact feeding times, but also when the dispenser runs out of food. Moreover, it will also provide the latest image captured by the laptop script and offer predictive analytics, such as when your dog is likely to eat next or when the dispenser might need a refill.
+Additionally, there are sliders on the left-hand side of the screen for setting daily limits and the minimum interval between feedings. Any adjustments made to these settings will alter the MQTT feed, which will be promptly acknowledged by the m5stack.
