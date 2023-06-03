@@ -10,6 +10,6 @@ You have chosen the second option, 3D printing. It is indeed possible to create 
 
 For the assembly, we used a cardboard sheet to make the reservoir and attached the different components together using glue, tape, and LEGO pieces.
 
-Be creative during this step and have fun!
+Be creative during this step and have fun, You have finally completed the deployment. Congratulations!
 
 
