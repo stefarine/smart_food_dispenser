@@ -7,8 +7,8 @@ Go to [flow.m5stack](https://flow.m5stack.com/). Now you have two choices. Eithe
 But in both cases you will have the following modifications:
 
 ### UIFlow Blockly
-```python
 ![step7_image1](https://github.com/stefarine/smart_food_dispenser/assets/114418718/c060e590-4a7f-4f04-8c60-d7449184db10)
+```python
 
 ### Micropython
 from m5stack import *
