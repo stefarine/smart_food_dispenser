@@ -1,4 +1,4 @@
-# Step 3 : Set up the adafruit feeds
+# Step 5 : Set up the adafruit feeds
 
 ### In this part we will show you how to create adafruit mqtt feeds that will be used for later steps.
 
