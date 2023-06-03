@@ -70,6 +70,6 @@ You will find in the folder [deployment](Deployment) the different steps to real
 │
 └── README.md
 ```
-__*It might be possible to use a single M5Stack Core2. This would require adding a compatible GPIO splitter to accommodate the additional sensor connections. Please note, however, that this modification would also necessitate alterations to the code, and the power output of the M5Stack Core2 might not be sufficient to support all connected devices._
+_*It might be possible to use a single M5Stack Core2. This would require adding a compatible GPIO splitter to accommodate the additional sensor connections. Please note, however, that this modification would also necessitate alterations to the code, and the power output of the M5Stack Core2 might not be sufficient to support all connected devices._
 
 _**For this project we used a windows computer and its webcam but it is quite possible to use another type of camera that integrates better with the device._
