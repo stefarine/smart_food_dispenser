@@ -23,7 +23,7 @@ def write_csv(request):
     else:
         return "No value provided"
 
-    csv_file_name = "data.csv"
+    csv_file_name = "data_feed.csv"
 
     bucket = storage_client.get_bucket(bucket_name)
     blob = bucket.blob(csv_file_name)
