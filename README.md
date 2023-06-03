@@ -20,12 +20,12 @@ video ici
 
 To deploy this project you will need the following material : 
 
-- 2x [M5Stack Core2](https://shop.m5stack.com/products/m5stack-core2-esp32-iot-development-kit)
+- 2x [M5Stack Core2](https://shop.m5stack.com/products/m5stack-core2-esp32-iot-development-kit)*
 - [Laser.tx unit](https://shop.m5stack.com/products/laser-tx-unit)
 - [Laser.rx unit](https://shop.m5stack.com/products/laser-rx-unit)
 - [Servo kit 360°](https://shop.m5stack.com/products/servo-kit-360)
 - [Motion sensor](https://shop.m5stack.com/products/pir-module)
-- A computer and its webcam*
+- A computer and its webcam**
 - A 3D printer or some DIY skills
 
 ## Deployment
@@ -63,5 +63,5 @@ You will find in the folder [deployment](Deployment) the different steps to real
 │
 └── README.md
 ```
-
-_*For this project we used a windows computer and its webcam but it is quite possible to use another type of camera that integrates better with the device._
+_*You might 
+_**For this project we used a windows computer and its webcam but it is quite possible to use another type of camera that integrates better with the device._
