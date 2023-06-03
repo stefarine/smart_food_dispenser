@@ -171,4 +171,4 @@ WARNING: This is a development server. Do not use it in a production deployment.
  ```
  Take note of the second IP address (e.g., 192.120.1.128). You will need it for the subsequent steps.
  
-With these configurations, your device will now be capable of capturing images, uploading them to Google Cloud Storage, and analyzing them to detect if a dog is present. Once a dog is detected, the script will publish a message to the Adafruit IO MQTT broker.
+With these configurations, your device will now be capable of capturing images, uploading them to Google Cloud Storage, and analyzing them to detect if a dog is present. Once a dog is detected, the script will publish a message to the Adafruit IO MQTT broker. The next [step](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step7.md) is to set up the second M5Stack, which will be responsible for detecting movement, sending requests to the Flask server, checking if a dog was detected from the MQTT feed, running the servo motor, and sending a request to the Google Cloud function to write data.
