@@ -6,6 +6,10 @@ First of all, connect your servo motor to port C and your PIR motion detector to
 Go to [flow.m5stack](https://flow.m5stack.com/). Now you have two choices. Either you import [this file]() or you paster [this code](). 
 But in both cases you will have to do some modifications. 
 
+
+![step7_image1](https://github.com/stefarine/smart_food_dispenser/assets/114418718/2cbd890e-3214-4f7f-8c6a-a2d2e6f059e0)
+
+
 1. On line 66, replace `ADAFRUIT_USERNAME` and `ADAFRUIT_KEY` with the respective values you wrote down on step 5.
 ```python
 m5mqtt = M5mqtt('M5StackCore2', 'io.adafruit.com', 1883, 'ADAFRUIT_USERNAME', 'ADAFRUIT_KEY', 300)
