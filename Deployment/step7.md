@@ -8,9 +8,8 @@ But in both cases you will have the following modifications:
 
 ### UIFlow Blockly
 ![step7_image1](https://github.com/stefarine/smart_food_dispenser/assets/114418718/c060e590-4a7f-4f04-8c60-d7449184db10)
-```python
-
 ### Micropython
+```python
 from m5stack import *
 from m5stack_ui import *
 from uiflow import *
