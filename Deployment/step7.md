@@ -154,12 +154,12 @@ m5mqtt.subscribe(str('ADAFRUIT_USERNAME/feeds/min-dispense-interval'), fun_Giac_
 m5mqtt.subscribe(str('ADAFRUIT_USERNAME/feeds/dog-detected'), fun_Giac_feeds_dog_detected_)
 m5mqtt.subscribe(str('ADAFRUIT_USERNAME/feeds/daily-limit'), fun_Giac_feeds_daily_limit_)
 ```
-2. On line 94, replace  `FLASK_IP` with the flask IP address you wrote down in step 6.
+2. On line 94, replace  `FLASK_IP` with the flask IP address you wrote down in step 6. Keep `/upload_image`!
 ```python
 req = urequests.request(method='POST', url='http://FLASK_IP/upload_image',json={}, headers={})
 ```
 3. On line 109, replace  `cloud_function_trigger` with the Google Cloud Function trigger URL from step 4. 
 ```python
- req = urequests.request(method='POST', url='cloud_function_trigger',json={}, headers={})
+ req = urequests.request(method='POST', url='google_function_trigger_url',json={}, headers={})
  ```
  
