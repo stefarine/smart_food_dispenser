@@ -12,7 +12,7 @@ The smart dispenser uses a combination of a motion detector and a camera to iden
 
 The device also allows, thanks to a laser emitter and its receiver, to determine when the food tank is empty. Thus, the user will be notified on his phone of the need to refill it. Each time the tank is emptied, the date and time is stored to keep track of the general food consumption of the animal. 
 
-Finally, the user will be able to access a web application that allow them to view their pet's feeding and empty dispenser logs, adjust the dispenser's settings, and view predictions about future feeding times and empty dispenser events
+Finally, the user will be able to access a web application that allow them to view their pet's feeding and empty dispenser logs, adjust the dispenser's settings, and view predictions about future feeding times and empty dispenser events.
 
 <p align="center">
   <img height=300 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/d48da7a2-96c2-40ad-a09d-d163a3620da6">
