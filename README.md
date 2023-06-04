@@ -8,9 +8,11 @@
 
 The aim of this project is to deploy a smart dog food dispenser. The device will allow you to feed your dog while collecting data. You will be able to know how often the animal eats and also to have an eye on its food consumption. Indeed, the device allows you to track how often the container is empty.
 
-The device is able to detect when a dog is in front of it and can serve a portion of food. For this purpose the camera uses a motion detector which, when a movement is detected, triggers the camera. The captured photo is then processed by Google Vision AI, to determine if it is a dog or not. If it is a dog, the device will activate the servo motor to deliver a portion of food. The device will store the date and time of engine activation to keep track of the animal's food consumption.
+The smart dispenser uses a combination of a motion detector and a camera to identify when your dog is present. When motion is detected, the camera captures an image, which is then analyzed by the Google Vision API to determine whether a dog is in the frame. If a dog is detected, the dispenser activates a servo motor to dispense a portion of food. The date and time of each feeding event are logged, allowing you to track your pet's feeding times and frequency.
 
-The device also allows, thanks to a laser emitter and its receiver, to determine when the food tank is empty. Thus, the user will be notified on his phone of the need to refill it. Each time the tank is emptied, the date and time is stored to keep track of the general food consumption of the animal. Also, the user will be able to consult the information about his pet's food consumption through the web app.
+The device also allows, thanks to a laser emitter and its receiver, to determine when the food tank is empty. Thus, the user will be notified on his phone of the need to refill it. Each time the tank is emptied, the date and time is stored to keep track of the general food consumption of the animal. 
+
+Finally, the user will be able to access a web application that allow them to view their pet's feeding and empty dispenser logs, adjust the dispenser's settings, and view predictions about future feeding times and empty dispenser events
 
 <p align="center">
   <img height=300 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/d48da7a2-96c2-40ad-a09d-d163a3620da6">
