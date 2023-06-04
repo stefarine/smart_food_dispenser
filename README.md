@@ -72,6 +72,9 @@ You will find in the folder [deployment](Deployment) the different steps to real
 │   └── step8.md
 │   └── step9.md
 │
+├── Deployment
+│   ├── LinkedIn_Post_Draft.pdf
+│
 └── README.md
 ```
 _*It might be possible to use a single M5Stack Core2. This would require adding a compatible GPIO splitter to accommodate the additional sensor connections. Please note, however, that this modification would also necessitate alterations to the code, and the power output of the M5Stack Core2 might not be sufficient to support all connected devices._
