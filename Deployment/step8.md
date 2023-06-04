@@ -30,7 +30,7 @@ Once you are logged in, click on `Your Authtoken` on the left menu, and copy it.
 
 ![step8_img8](https://github.com/stefarine/smart_food_dispenser/assets/114418718/c69b659f-8010-468a-b135-3842f5507df4)
 
-6. Run the sixth cell. The address to your webapp will be printed, like in the following image. (the address is on the line starting with `Streamlit app running at NgrokTunnel:`. In this case the address is `https://4690-35-199-161-15.ngrok-free.app` but it will change every time you restard the ngrok app. 
+6. Run the sixth cell. The address to your webapp will be printed, like in the following image. The address is on the line starting with `Streamlit app running at NgrokTunnel:`. In this case the address is `https://4690-35-199-161-15.ngrok-free.app` but it will change every time you restard the ngrok app. 
 
 ![step8_img9](https://github.com/stefarine/smart_food_dispenser/assets/114418718/d4689e03-912d-437f-b8c4-b5c2178d587b)
 
