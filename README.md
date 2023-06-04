@@ -25,15 +25,7 @@ Finally, the user will be able to access a web application that allow them to vi
 
 [![youtube-logo-png-transparent-image-5](https://user-images.githubusercontent.com/114418718/209170346-bad7ab7e-3c07-43fd-8b9a-eb9e2ba360ff.png)](https://www.youtube.com/watch?v=JJP4o6CnbYs)
 
-[![vid](https://img.youtube.com/vi/v=JJP4o6CnbYs/0.jpg)](https://www.youtube.com/watch?v=JJP4o6CnbYs)
-
-<object width="425" height="350">
-  <param name="movie" value="https://www.youtube.com/watch?v=JJP4o6CnbYs" />
-  <param name="wmode" value="transparent" />
-  <embed src="https://www.youtube.com/watch?v=JJP4o6CnbYs"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="425" height="350" />
-</object>
+[![vid](https://img.youtube.com/vi/JJP4o6CnbYs/0.jpg)](https://www.youtube.com/watch?v=JJP4o6CnbYs)
 
 ## Requirements
 
