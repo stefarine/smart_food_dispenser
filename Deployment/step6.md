@@ -150,12 +150,12 @@ folder_path = "PATH TO YOUR IMAGE FOLDER"
 client.username_pw_set('ADAFRUIT_USERNAME', 'ADAFRUIT_KEY')
 ```  
 ---
-Side note: if you wish for the dispenser to work with other animals, you can change line 66 by replacing `dog` by any animal. 
+Side note: if you wish to detect other animals instead of a dog, you can modify the following line of code (line 66), replacing `dog` with the animal of your choice:
 ```python 
 if label.description.lower() == 'dog':
 ```  
 
-If you wish to detect other animals instead of a dog, you can modify the following line of code (line 66), replacing `dog` with the animal of your choice:
+Now, install the required packages using pip:
 ```python 
 pip install flask google-cloud-storage google-cloud-vision opencv-python paho-mqtt
 ``` 
