@@ -14,18 +14,18 @@ The code for the Smart Food Dispenser is divided into several scripts that handl
 
 - `laser_notifAndCsv.py` and `laser_notifAndCsv.m5f`: These MicroPython script and M5Stack flow files run on M5Stack core2 devices to interact with the laser sensor, and to send HTTP requests to the cloud functions. They do the following:
    - Continuously check the value of the laser reciever.
-   - If the laser laser receiver detects the laser beam, it sends a POST request to the 'laser-notif' cloud function and a POST request to the 'laser-csv' cloud function.
+   - If the laser laser receiver detects the laser beam, it sends a POST request to the `laser-notif.js` cloud function and a POST request to the `laser-csv.py` cloud function.
    
 - `m5_dispenser.py` and `m5_dispenser.m5f`: These Python scripts and M5Stack flow files run on a second M5Stack device to detect movement, send requests to the Flask server, check if a dog was detected from the MQTT feed, run the servo motor, and send a request tothe Google Cloud function to write data. They do the following:
    - Continuously check the state of the PIR motion detector, but only when the values of the Adafruit feeds (daily feeding limit and minimum dispensing interval) are respected.
-   - If the PIR motion detector detects movement, the m5stack sends a POST request to the Flask server to trigger the webcam and then checks the 'dog_detected' feed on Adafruit IO.
-   - If a dog is detected by the `webcam.py` script, the `dog_detected` feed will update to `True`. The m5stack will then activate the servo motor to dispense food andwill  send a POST request to the 'feeding-csv.py' cloud function to store the feeding times. 
+   - If the PIR motion detector detects movement, the m5stack sends a POST request to the Flask server to trigger the webcam and then checks the `dog_detected` feed on Adafruit IO.
+   - If a dog is detected by the `webcam.py` script, the `dog_detected` feed will update to `True`. The m5stack will then activate the servo motor to dispense food andwill  send a POST request to the `feeding-csv.py` cloud function to store the feeding times. 
  
 - `webcam.py`: This Python script runs on a local server (e.g., a laptop) and does the following:
    - Captures an image from the webcam whenever it receives a POST request.
    - Uploads the image to a Google Cloud Storage bucket.
    - Calls the Google Vision API to analyze the image and detect if a dog is present.
-   - If a dog is detected, it publishes a message to the 'dog_detected' feed on Adafruit IO.
+   - Finally, it publishes a message to the `dog_detected` feed on Adafruit IO. The message will be `True` if a dog is detected and `False` otherwise.
 
 - `webapp_dispenser.ipynb`: This Jupyter notebook contains the code for the Streamlit web application, which provides a user interface for visualizing the data, changing dispenser parameters, and computing predictions. It does the following:
    - Sets up an MQTT client and connects to the Adafruit IO MQTT broker.
