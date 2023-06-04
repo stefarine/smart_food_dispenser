@@ -58,14 +58,14 @@ The code for the Smart Food Dispenser is divided into several scripts that handl
 This process is divided into nine steps:
 
 1. [**`WhatsApp Notification`**](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step1.md): Configuring a Twilio account and a Google Cloud Function to send a WhatsApp notification when the food tank is empty.
-2. [**Keep track on Google Cloud Storage**](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step2.md): Configuring a Google Cloud Storage bucket and a Google Cloud Function to keep track of when the food tank is empty.
-3. [**Set up the M5Stack**](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step3.md): Injecting the code into the M5Stack device to handle notifications and CSV file updates related to the laser sensor.
-4. [**Feeding Times Cloud Function**](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step4.md): Configuring a Google Cloud Function to keep track of when the dog is fed.
-5. [**Set up the Adafruit feeds**](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step5.md): Creating Adafruit MQTT feeds to communicate with the M5Stack and the Flask servers.
-6. [**Image Capture and Analysis**](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step6.md): Setting up a Flask server to capture images from the webcam, upload them to Google Cloud Storage, and analyze them to detect if a dog is present.
-7. [**Set up the second M5Stack**](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step7.md): Injecting the code into the second M5Stack device to detect movement, send requests to the Flask server, check if a dog was detected from the MQTT feed, run the servo motor, and send a request to the Google Cloud function to write data.
-8. [**Web Application**](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step8.md): Setting up a Streamlit web application to visualize the data, change dispenser parameters, and compute predictions.
-9. [**Final Assembly**](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step9.md): Assembling all the hardware components of the Smart Food Dispenser.
+2. [**`Keep track on Google Cloud Storage`**](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step2.md): Configuring a Google Cloud Storage bucket and a Google Cloud Function to keep track of when the food tank is empty.
+3. [**`Set up the M5Stack`**](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step3.md): Injecting the code into the M5Stack device to handle notifications and CSV file updates related to the laser sensor.
+4. [**`Feeding Times Cloud Function`**](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step4.md): Configuring a Google Cloud Function to keep track of when the dog is fed.
+5. [**`Set up the Adafruit feeds`**](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step5.md): Creating Adafruit MQTT feeds to communicate with the M5Stack and the Flask servers.
+6. [**`Image Capture and Analysis`**](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step6.md): Setting up a Flask server to capture images from the webcam, upload them to Google Cloud Storage, and analyze them to detect if a dog is present.
+7. [**`Set up the second M5Stack`**](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step7.md): Injecting the code into the second M5Stack device to detect movement, send requests to the Flask server, check if a dog was detected from the MQTT feed, run the servo motor, and send a request to the Google Cloud function to write data.
+8. [**`Web Application`**](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step8.md): Setting up a Streamlit web application to visualize the data, change dispenser parameters, and compute predictions.
+9. [**`Final Assembly`**](https://github.com/stefarine/smart_food_dispenser/blob/main/Deployment/step9.md): Assembling all the hardware components of the Smart Food Dispenser.
 
 ## Documents
 
