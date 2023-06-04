@@ -5,12 +5,12 @@ This document provides a summary of the Smart Food Dispenser project and explain
 ## Components
 
 ### Hardware
-- 2x [M5Stack Core2](https://shop.m5stack.com/products/m5stack-core2-esp32-iot-development-kit)*
+- 2x [M5Stack Core2](https://shop.m5stack.com/products/m5stack-core2-esp32-iot-development-kit)
 - [Laser.tx unit](https://shop.m5stack.com/products/laser-tx-unit)
 - [Laser.rx unit](https://shop.m5stack.com/products/laser-rx-unit)
 - [Servo kit 360°](https://shop.m5stack.com/products/servo-kit-360)
 - [Motion sensor](https://shop.m5stack.com/products/pir-module)
-- A computer and its webcam**
+- A computer and its webcam
 - A 3D printer or some DIY skills
 
 ### Software
