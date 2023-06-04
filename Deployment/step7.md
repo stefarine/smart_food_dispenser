@@ -143,8 +143,6 @@ while True:
   dog_detected_label2.set_text('loading...')
   dog_detected_label2.set_text_color(0x000000)
   wait_ms(2)
-
-1. On line 66, replace `ADAFRUIT_USERNAME` and `ADAFRUIT_KEY` with the respective values you wrote down on step 5.
 ```
 Here are the modifications to the code:
 1. On lines 66, 67, 68 and 69: Replace `ADAFRUIT_USERNAME` and `ADAFRUIT_KEY` with the respective values you wrote down on step 5.
