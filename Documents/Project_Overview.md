@@ -1,4 +1,4 @@
-### Project Overview and Folder Structure
+# Project Overview and Folder Structure
 
 This document provides a summary of the Smart Food Dispenser project and explains the organization of the files and folders in the repository.
 
