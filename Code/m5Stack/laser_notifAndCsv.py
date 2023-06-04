@@ -49,7 +49,7 @@ while True:
     counter = (counter if isinstance(counter, Number) else 0) + 1
     if counter == 1:
       try:
-        req = urequests.request(method='GET', url='https://us-central1-iottestv1-384613.cloudfunctions.net/laser-notif', headers={})
+        req = urequests.request(method='POST', url='https://us-central1-iottestv1-384613.cloudfunctions.net/laser-notif', headers={})
         label2.set_text('okk')
         gc.collect()
         req.close()
