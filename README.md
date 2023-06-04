@@ -27,7 +27,7 @@ Finally, the user will be able to access a web application that allow them to vi
 
 [https://www.youtube.com/watch?v=JJP4o6CnbYs](https://www.youtube.com/watch?v=JJP4o6CnbYs)
 
-## Requirements
+## Requirements 📝
 
 To deploy this project you will need the following material : 
 
@@ -39,11 +39,16 @@ To deploy this project you will need the following material :
 - A computer and its webcam**
 - A 3D printer or some DIY skills
 
-## Deployment
+## Deployment 🚀
 
 You will find in the folder [deployment](Deployment) the different steps to realize this project. To start, go to [step 1](Deployment/step1.md).
 
-## Repository structure
+## Members 👥
+- Giacomo Rattazzi: Code lead, Documentation & Prototyping
+- Stéphane P. Fernandes: Code help, GitHub & Video Editing
+- Thomas Vidalenc: Prototyping & Documentation 
+
+## Repository structure 📂
 ```
 │
 ├── Code
