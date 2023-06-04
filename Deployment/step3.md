@@ -63,7 +63,7 @@ while True:
     counter = (counter if isinstance(counter, Number) else 0) + 1
     if counter == 1:
       try:
-        req = urequests.request(method='GET', url='[YOUR URL]', headers={})
+        req = urequests.request(method='POST', url='[YOUR URL]', headers={})
         label2.set_text('okk')
         gc.collect()
         req.close()
