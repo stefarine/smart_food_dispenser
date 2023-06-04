@@ -2,18 +2,24 @@ import os
 import csv
 from flask import escape, request
 from google.cloud import storage
+from datetime import datetime
+from pytz import timezone
 
 storage_client = storage.Client()
 bucket_name = os.environ.get("BUCKET_NAME")
+
+def current_time():
+    tz = timezone('Europe/Paris')
+    return datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S")
 
 def write_csv(request):
     request_json = request.get_json(silent=True)
     request_args = request.args
 
-    if request_json and "data" in request_json:
-        data = request_json["data"]
-    elif request_args and "data" in request_args:
-        data = request_args["data"]
+    if request_json and "laser" in request_json:
+        data = request_json["laser"]
+    elif request_args and "laser" in request_args:
+        data = request_args["laser"]
     else:
         return "No data provided"
 
