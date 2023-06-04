@@ -27,6 +27,14 @@ Finally, the user will be able to access a web application that allow them to vi
 
 [![vid](https://img.youtube.com/vi/v=JJP4o6CnbYs/0.jpg)](https://www.youtube.com/watch?v=JJP4o6CnbYs)
 
+<object width="425" height="350">
+  <param name="movie" value="https://www.youtube.com/watch?v=JJP4o6CnbYs" />
+  <param name="wmode" value="transparent" />
+  <embed src="https://www.youtube.com/watch?v=JJP4o6CnbYs"
+         type="application/x-shockwave-flash"
+         wmode="transparent" width="425" height="350" />
+</object>
+
 ## Requirements
 
 To deploy this project you will need the following material : 
