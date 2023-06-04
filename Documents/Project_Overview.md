@@ -69,4 +69,4 @@ This process is divided into nine steps:
 The Documents folder contains additional resources related to the project:
 
 - `LinkedIn_Post_Draft.pdf`: A draft for a LinkedIn post about the Smart Food Dispenser project.
-- `Project_Overview.md`:
+- `Project_Overview.md`: A summary of the Smart Food Dispenser project and an explanation of the organization of the files and folders in the repository.
