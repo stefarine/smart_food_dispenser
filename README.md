@@ -69,11 +69,11 @@ You will find in the folder [deployment](Deployment) the different steps to real
 │   ├── step5.md
 │   ├── step6.md
 │   ├── step7.md
-│   └── step8.md
+│   ├──  step8.md
 │   └── step9.md
 │
 ├── Deployment
-│   ├── LinkedIn_Post_Draft.pdf
+│   └── LinkedIn_Post_Draft.pdf
 │
 └── README.md
 ```
