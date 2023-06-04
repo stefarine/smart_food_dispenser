@@ -2,6 +2,23 @@
 
 This document provides a summary of the Smart Food Dispenser project and explains the organization of the files and folders in the repository.
 
+## Components
+
+### Hardware
+- M5Stack devices
+- Servo motor
+- PIR motion sensor
+- Webcam
+- Laser modules
+
+### Software
+- Google Cloud Functions
+- Google Cloud Storage
+- Google Vision API
+- Adafruit IO MQTT feeds
+- Flask server
+- Streamlit web application
+
 ## Code
 
 The code for the Smart Food Dispenser is divided into several scripts that handle different aspects of the system:
@@ -16,10 +33,10 @@ The code for the Smart Food Dispenser is divided into several scripts that handl
    - Continuously check the value of the laser reciever.
    - If the laser laser receiver detects the laser beam, it sends a POST request to the `laser-notif.js` cloud function and a POST request to the `laser-csv.py` cloud function.
    
-- `m5_dispenser.py` and `m5_dispenser.m5f`: These Python scripts and M5Stack flow files run on a second M5Stack device to detect movement, send requests to the Flask server, check if a dog was detected from the MQTT feed, run the servo motor, and send a request tothe Google Cloud function to write data. They do the following:
+- `m5_dispenser.py` and `m5_dispenser.m5f`: These Python scripts and M5Stack flow files run on a second M5Stack device to detect movement, send requests to the Flask server, check if a dog was detected from the MQTT feed, run the servo motor, and send a request to the Google Cloud function to write data. They do the following:
    - Continuously check the state of the PIR motion detector, but only when the values of the Adafruit feeds (daily feeding limit and minimum dispensing interval) are respected.
    - If the PIR motion detector detects movement, the m5stack sends a POST request to the Flask server to trigger the webcam and then checks the `dog_detected` feed on Adafruit IO.
-   - If a dog is detected by the `webcam.py` script, the `dog_detected` feed will update to `True`. The m5stack will then activate the servo motor to dispense food andwill  send a POST request to the `feeding-csv.py` cloud function to store the feeding times. 
+   - If a dog is detected by the `webcam.py` script, the `dog_detected` feed will update to `True`. The m5stack will then activate the servo motor to dispense food and will  send a POST request to the `feeding-csv.py` cloud function to store the feeding times. 
  
 - `webcam.py`: This Python script runs on a local server (e.g., a laptop) and does the following:
    - Captures an image from the webcam whenever it receives a POST request.
@@ -27,20 +44,15 @@ The code for the Smart Food Dispenser is divided into several scripts that handl
    - Calls the Google Vision API to analyze the image and detect if a dog is present.
    - Finally, it publishes a message to the `dog_detected` feed on Adafruit IO. The message will be `True` if a dog is detected and `False` otherwise.
 
-- `webapp_dispenser.ipynb`: This Jupyter notebook contains the code for the Streamlit web application, which provides a user interface for visualizing the data, changing dispenser parameters, and computing predictions. It does the following:
-   - Sets up an MQTT client and connects to the Adafruit IO MQTT broker.
-   - Displays sliders for setting the daily feeding limit and the minimum dispensing interval, and publishes these values to the respective Adafruit IO feeds.
-   - Fetches the feeding times and empty dispenser times CSV files from the Flask API, and plots the data.
-   - Fetches the latest image from the Flask API and displays it.
-   - Computes predictions for the next feeding time and the next empty dispenser time using an ARIMA model.
-
-
-
+- `webapp_dispenser.ipynb`: This Google Colab notebook contains the code for the web application, which provides a user interface for visualizing the data, changing dispenser parameters, and computing predictions. It does the following:
+   - Flask Server: The Flask server provides three endpoints for fetching the feeding times CSV file, the empty dispenser times CSV file, and the latest image from Google Cloud Storage. These endpoints are used by the Streamlit web application to fetch the necessary data.
+   - Streamlit Web Application: The Streamlit script sets up an MQTT client and connects to the Adafruit IO MQTT broker. It displays sliders for setting the daily feeding limit and the minimum dispensing interval, and publishes these values to the respective Adafruit IO feeds. It fetches the feeding times and empty dispenser times CSV files from the Flask API, and plots the data. It also fetches the latest image from the Flask API and displays it. Finally, it computes predictions for the next feeding time and the next empty dispenser time using an ARIMA model.
+   - Ngrok: Ngrok is used to expose the local Flask server and the Streamlit web application to the internet. This allows the web application to be accessed from anywhere, not just on the local machine.
 
 
 ## Deployment
 
-The deployment process involves setting up and configuring all the hardware and software components, injecting the code into the M5Stack devices, and setting up a web application to visualize the data and control the dispenser's parameters. The process is divided into nine steps:
+This process is divided into nine steps:
 
 1. **WhatsApp Notification**: Configuring a Twilio account and a Google Cloud Function to send a WhatsApp notification when the food tank is empty.
 2. **Keep track on Google Cloud Storage**: Configuring a Google Cloud Storage bucket and a Google Cloud Function to keep track of when the food tank is empty.
