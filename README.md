@@ -23,9 +23,9 @@ Finally, the user will be able to access a web application that allow them to vi
 
 ## Demonstration video 📺
 
-[![youtube-logo-png-transparent-image-5](https://user-images.githubusercontent.com/114418718/209170346-bad7ab7e-3c07-43fd-8b9a-eb9e2ba360ff.png)](https://www.youtube.com/watch?v=JJP4o6CnbYs)
-
 [![vid](https://img.youtube.com/vi/JJP4o6CnbYs/0.jpg)](https://www.youtube.com/watch?v=JJP4o6CnbYs)
+
+[https://www.youtube.com/watch?v=JJP4o6CnbYs](https://www.youtube.com/watch?v=JJP4o6CnbYs)
 
 ## Requirements
 
