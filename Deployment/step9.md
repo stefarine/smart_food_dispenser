@@ -1,6 +1,6 @@
 The final step of this project is to assemble all the hardware components. There are several options available. You can either modify an existing food dispenser, build it by yourself or create your own using 3D printing.
 
-You have chosen the second option, 3D printing. It is indeed possible to create your own 3D model. However, you have decided to use an existing 3D model that you found for free online. The link to the model can be found [here](https://www.thingiverse.com/thing:4255428).
+In our case, we have chosen the third option, 3D printing. It is indeed possible to create your own 3D model. However, we have decided to use an existing 3D model that we found for free online. The link to the model can be found [here](https://www.thingiverse.com/thing:4255428).
 
 <p align="center">
   <img height=300 src="https://github.com/stefarine/smart_food_dispenser/assets/57952280/d48da7a2-96c2-40ad-a09d-d163a3620da6">
