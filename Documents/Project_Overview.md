@@ -5,19 +5,22 @@ This document provides a summary of the Smart Food Dispenser project and explain
 ## Components
 
 ### Hardware
-- M5Stack devices
-- Servo motor
-- PIR motion sensor
-- Webcam
-- Laser modules
+- 2x [M5Stack Core2](https://shop.m5stack.com/products/m5stack-core2-esp32-iot-development-kit)*
+- [Laser.tx unit](https://shop.m5stack.com/products/laser-tx-unit)
+- [Laser.rx unit](https://shop.m5stack.com/products/laser-rx-unit)
+- [Servo kit 360°](https://shop.m5stack.com/products/servo-kit-360)
+- [Motion sensor](https://shop.m5stack.com/products/pir-module)
+- A computer and its webcam**
+- A 3D printer or some DIY skills
 
 ### Software
-- Google Cloud Functions
-- Google Cloud Storage
-- Google Vision API
-- Adafruit IO MQTT feeds
-- Flask server
-- Streamlit web application
+- [Google Cloud Functions](https://cloud.google.com/functions)
+- [Google Cloud Storage](https://cloud.google.com/storage)
+- [Google Vision API](https://cloud.google.com/vision)
+- [Adafruit IO MQTT feeds](https://io.adafruit.com/)
+- [Flask server](https://flask.palletsprojects.com/)
+- [Streamlit web application](https://streamlit.io/)
+- [Twilio](https://www.twilio.com/)
 
 ## Code
 
